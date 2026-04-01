@@ -1,5 +1,5 @@
 import requests
-from helper import displayMaze
+from maze_idea.helper import displayMaze
 
 def register_user():
     url = "http://127.0.0.1:5000/register"
